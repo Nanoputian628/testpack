@@ -13,6 +13,11 @@
 
 
 test_fun <- function(x) {
+  if (!is.numeric(x)) {
+    stop("x is not a number")
+  } else if (x %% 1 != 0) {
+    warning("x is not an integer")
+  }
   2*x
 }
 
