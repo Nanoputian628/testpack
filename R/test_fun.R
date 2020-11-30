@@ -4,7 +4,7 @@
 #'
 #' @param x A integer object
 #'
-#' @return Integer object, double input \code{test_fun}
+#' @return Integer object, multiplies by 2 \code{test_fun}
 #' @examples
 #' in <- 3
 #' out <- test_fun(x = in)
