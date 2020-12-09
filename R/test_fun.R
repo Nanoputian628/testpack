@@ -13,6 +13,7 @@
 
 
 test_fun <- function(x) {
+  # mutliply by two 
   if (!is.numeric(x)) {
     stop("x is not a number")
   } else if (x %% 1 != 0) {
