@@ -13,6 +13,7 @@
 
 
 test_fun <- function(x) {
+  # mutliply by two 
   2*x
 }
 
